@@ -1,0 +1,21 @@
+{
+  "author": "Casey Robinson <casey@rampantmonkey.com> (https://rampantmonkey.com)",
+  "name": "httpstatuses",
+  "description": "Friendly interface for working with HTTP status codes",
+  "keywords": ["http", "HTTP", "status code"],
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rampantmonkey/httpstatuses.git"
+  },
+  "scripts": {
+    "test": "make"
+  },
+  "engines": {
+    "node": ">= v0.10.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
