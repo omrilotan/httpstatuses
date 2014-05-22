@@ -203,5 +203,62 @@ describe('HTTP Status', function () {
   })
 
   describe('Server Error', function() {
+    it('500', function () {
+     assert.equal(httpStatus.internalServerError, 500)
+    })
+    it('501', function () {
+     assert.equal(httpStatus.notImplemented, 501)
+    })
+    it('502', function () {
+     assert.equal(httpStatus.badGateway, 502)
+    })
+    it('503', function () {
+     assert.equal(httpStatus.serviceUnavailable, 503)
+    })
+    it('504', function () {
+     assert.equal(httpStatus.gatewayTimeout, 504)
+    })
+    it('505', function () {
+     assert.equal(httpStatus.httpVersionNotSupported, 505)
+    })
+    it('506', function () {
+     assert.equal(httpStatus.variantAlsoNegotiates, 506)
+    })
+    it('507', function () {
+     assert.equal(httpStatus.insuficientStorage, 507)
+    })
+    it('508', function () {
+     assert.equal(httpStatus.loopDetected, 508)
+    })
+    it('509', function () {
+     assert.equal(httpStatus.bandwidthLimitExceeded, 509)
+    })
+    it('510', function () {
+     assert.equal(httpStatus.notExtended, 510)
+    })
+    it('511', function () {
+     assert.equal(httpStatus.networkAuthenticationReuired, 511)
+    })
+    it('520', function () {
+     assert.equal(httpStatus.originError, 520)
+    })
+    it('521', function () {
+     assert.equal(httpStatus.webServerIsDown, 521)
+    })
+    it('522', function () {
+     assert.equal(httpStatus.connectionTimedOut, 522)
+    })
+    it('523', function () {
+     assert.equal(httpStatus.proxyDeclinedRequest, 523)
+    })
+    it('524', function () {
+     assert.equal(httpStatus.aTimeoutOccured, 524)
+    })
+    it('598', function () {
+     assert.equal(httpStatus.networkReadTimeoutError, 598)
+    })
+    it('599', function () {
+     assert.equal(httpStatus.networkConnectTimeoutError, 599)
+    })
   })
 })
