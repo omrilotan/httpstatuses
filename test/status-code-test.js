@@ -80,6 +80,126 @@ describe('HTTP Status', function () {
   })
 
   describe('Client Error', function() {
+    it('400', function () {
+     assert.equal(httpStatus.badRequest, 400)
+    })
+    it('401', function () {
+     assert.equal(httpStatus.unauthorized, 401)
+    })
+    it('402', function () {
+     assert.equal(httpStatus.paymentRequired, 402)
+    })
+    it('403', function () {
+     assert.equal(httpStatus.forbidden, 403)
+    })
+    it('404', function () {
+     assert.equal(httpStatus.notFound, 404)
+    })
+    it('405', function () {
+     assert.equal(httpStatus.methodNotAllowed, 405)
+    })
+    it('406', function () {
+     assert.equal(httpStatus.notAcceptable, 406)
+    })
+    it('407', function () {
+     assert.equal(httpStatus.proxyAuthenticationRequired, 407)
+    })
+    it('408', function () {
+     assert.equal(httpStatus.requestTimeout, 408)
+    })
+    it('409', function () {
+     assert.equal(httpStatus.conflict, 409)
+    })
+    it('410', function () {
+     assert.equal(httpStatus.gone, 410)
+    })
+    it('411', function () {
+     assert.equal(httpStatus.lengthRequired, 411)
+    })
+    it('412', function () {
+     assert.equal(httpStatus.preconditionFailed, 412)
+    })
+    it('413', function () {
+     assert.equal(httpStatus.requestEntityTooLarge, 413)
+    })
+    it('414', function () {
+     assert.equal(httpStatus.requestUriTooLong, 414)
+    })
+    it('415', function () {
+     assert.equal(httpStatus.unsupportedMediaType, 415)
+    })
+    it('416', function () {
+     assert.equal(httpStatus.requestedRangeNotSatisfiable, 416)
+    })
+    it('417', function () {
+     assert.equal(httpStatus.expectationFailed, 417)
+    })
+    it('418', function () {
+     assert.equal(httpStatus.imATeapot, 418)
+    })
+    it('419', function () {
+     assert.equal(httpStatus.authenticationTimeout, 419)
+    })
+    it('420', function () {
+     assert.equal(httpStatus.methodFailure, 420)
+    })
+    it('420', function () {
+     assert.equal(httpStatus.enhanceYourCalm, 420)
+    })
+    it('422', function () {
+     assert.equal(httpStatus.unprocessableEntity, 422)
+    })
+    it('423', function () {
+     assert.equal(httpStatus.locked, 423)
+    })
+    it('424', function () {
+     assert.equal(httpStatus.failedDependency, 424)
+    })
+    it('425', function () {
+     assert.equal(httpStatus.unorderedCollection, 425)
+    })
+    it('426', function () {
+     assert.equal(httpStatus.upgradeRequired, 426)
+    })
+    it('428', function () {
+     assert.equal(httpStatus.preconditionRequired, 428)
+    })
+    it('429', function () {
+     assert.equal(httpStatus.tooManyRequests, 429)
+    })
+    it('431', function () {
+     assert.equal(httpStatus.requestHeaderFieldsTooLarge, 431)
+    })
+    it('440', function () {
+     assert.equal(httpStatus.loginTimeout, 440)
+    })
+    it('444', function () {
+     assert.equal(httpStatus.noResponse, 444)
+    })
+    it('449', function () {
+     assert.equal(httpStatus.retryWith, 449)
+    })
+    it('450', function () {
+     assert.equal(httpStatus.blockedByWindowsParentalControls, 450)
+    })
+    it('451', function () {
+     assert.equal(httpStatus.unavailableForLegalReasons, 451)
+    })
+    it('494', function () {
+     assert.equal(httpStatus.requestHeaderTooLarge, 494)
+    })
+    it('495', function () {
+     assert.equal(httpStatus.certError, 495)
+    })
+    it('496', function () {
+     assert.equal(httpStatus.noCert, 496)
+    })
+    it('497', function () {
+     assert.equal(httpStatus.httpToHttps, 497)
+    })
+    it('499', function () {
+     assert.equal(httpStatus.clientClosedRequest, 499)
+    })
   })
 
   describe('Server Error', function() {
