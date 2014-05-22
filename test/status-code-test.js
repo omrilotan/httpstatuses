@@ -3,6 +3,17 @@ var assert = require('assert'),
 
 describe('HTTP Status', function () {
   describe('Informational', function() {
+    it('100', function () {
+      assert.equal(httpStatus.continue, 100)
+    })
+
+    it('101', function () {
+      assert.equal(httpStatus.switchProtocols, 101)
+    })
+
+    it('102', function () {
+      assert.equal(httpStatus.processing, 102)
+    })
   })
 
   describe('Success', function() {
