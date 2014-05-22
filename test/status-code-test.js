@@ -50,6 +50,33 @@ describe('HTTP Status', function () {
   })
 
   describe('Redirection', function() {
+    it('300', function () {
+     assert.equal(httpStatus.multipleChoices, 300)
+    })
+    it('301', function () {
+     assert.equal(httpStatus.movedPermanently, 301)
+    })
+    it('302', function () {
+     assert.equal(httpStatus.found, 302)
+    })
+    it('303', function () {
+     assert.equal(httpStatus.seeOther, 303)
+    })
+    it('304', function () {
+     assert.equal(httpStatus.notModified, 304)
+    })
+    it('305', function () {
+     assert.equal(httpStatus.useProxy, 305)
+    })
+    it('306', function () {
+     assert.equal(httpStatus.switchProxy, 306)
+    })
+    it('307', function () {
+     assert.equal(httpStatus.temporaryRedirect, 307)
+    })
+    it('308', function () {
+     assert.equal(httpStatus.permanentRedirect, 308)
+    })
   })
 
   describe('Client Error', function() {

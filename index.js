@@ -12,3 +12,13 @@ exports.partialContent   = 206
 exports.multiStatus      = 207
 exports.alreadyReported  = 208
 exports.imUsed           = 226
+
+exports.multipleChoices   = 300
+exports.movedPermanently  = 301
+exports.found             = 302
+exports.seeOther          = 303
+exports.notModified       = 304
+exports.useProxy          = 305
+exports.switchProxy       = 306
+exports.temporaryRedirect = 307
+exports.permanentRedirect = 308
