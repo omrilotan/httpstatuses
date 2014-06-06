@@ -12,6 +12,7 @@ The standard `http` module provides a [`STATUS_CODES` object](http://nodejs.org/
 
     httpStatuses = require('httpstatuses')
     console.log(httpStatuses.not_found) # 404
+    console.log(httpStatuses[404]) # Not Found
 
 ## License
 _This software is released under the MIT license._
