@@ -16,6 +16,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "istanbul": "*",
     "mocha": "*"
   }
 }
