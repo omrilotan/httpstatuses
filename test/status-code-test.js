@@ -225,7 +225,7 @@ describe('HTTP Status', function () {
      assert.equal(httpStatus.variantAlsoNegotiates, 506)
     })
     it('507', function () {
-     assert.equal(httpStatus.insuficientStorage, 507)
+     assert.equal(httpStatus.insufficientStorage, 507)
     })
     it('508', function () {
      assert.equal(httpStatus.loopDetected, 508)
@@ -237,7 +237,7 @@ describe('HTTP Status', function () {
      assert.equal(httpStatus.notExtended, 510)
     })
     it('511', function () {
-     assert.equal(httpStatus.networkAuthenticationReuired, 511)
+     assert.equal(httpStatus.networkAuthenticationRequired, 511)
     })
     it('520', function () {
      assert.equal(httpStatus.originError, 520)
@@ -252,7 +252,7 @@ describe('HTTP Status', function () {
      assert.equal(httpStatus.proxyDeclinedRequest, 523)
     })
     it('524', function () {
-     assert.equal(httpStatus.aTimeoutOccured, 524)
+     assert.equal(httpStatus.aTimeoutOccurred, 524)
     })
     it('598', function () {
      assert.equal(httpStatus.networkReadTimeoutError, 598)
