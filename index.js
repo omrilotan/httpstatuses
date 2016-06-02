@@ -1,88 +1,88 @@
-exports.continue        = 100
-exports.switchProtocols = 101
-exports.processing      = 102
+exports.continue                         = exports.continue                             = 100
+exports.switchProtocols                  = exports.switch_protocols                     = 101
+exports.processing                       = exports.processing                           = 102
 
-exports.ok               = 200
-exports.created          = 201
-exports.accepted         = 202
-exports.nonAuthoritative = 203
-exports.noContent        = 204
-exports.resetContent     = 205
-exports.partialContent   = 206
-exports.multiStatus      = 207
-exports.alreadyReported  = 208
-exports.imUsed           = 226
+exports.ok                               = exports.ok                                   = 200
+exports.created                          = exports.created                              = 201
+exports.accepted                         = exports.accepted                             = 202
+exports.nonAuthoritative                 = exports.non_authoritative                    = 203
+exports.noContent                        = exports.no_content                           = 204
+exports.resetContent                     = exports.reset_content                        = 205
+exports.partialContent                   = exports.partial_content                      = 206
+exports.multiStatus                      = exports.multi_status                         = 207
+exports.alreadyReported                  = exports.already_reported                     = 208
+exports.imUsed                           = exports.im_used                              = 226
 
-exports.multipleChoices   = 300
-exports.movedPermanently  = 301
-exports.found             = 302
-exports.seeOther          = 303
-exports.notModified       = 304
-exports.useProxy          = 305
-exports.switchProxy       = 306
-exports.temporaryRedirect = 307
-exports.permanentRedirect = 308
+exports.multipleChoices                  = exports.multiple_choices                     = 300
+exports.movedPermanently                 = exports.moved_permanently                    = 301
+exports.found                            = exports.found                                = 302
+exports.seeOther                         = exports.see_other                            = 303
+exports.notModified                      = exports.not_modified                         = 304
+exports.useProxy                         = exports.use_proxy                            = 305
+exports.switchProxy                      = exports.switch_proxy                         = 306
+exports.temporaryRedirect                = exports.temporary_redirect                   = 307
+exports.permanentRedirect                = exports.permanent_redirect                   = 308
 
-exports.badRequest                       = 400
-exports.unauthorized                     = 401
-exports.paymentRequired                  = 402
-exports.forbidden                        = 403
-exports.notFound                         = 404
-exports.methodNotAllowed                 = 405
-exports.notAcceptable                    = 406
-exports.proxyAuthenticationRequired      = 407
-exports.requestTimeout                   = 408
-exports.conflict                         = 409
-exports.gone                             = 410
-exports.lengthRequired                   = 411
-exports.preconditionFailed               = 412
-exports.requestEntityTooLarge            = 413
-exports.requestUriTooLong                = 414
-exports.unsupportedMediaType             = 415
-exports.requestedRangeNotSatisfiable     = 416
-exports.expectationFailed                = 417
-exports.imATeapot                        = 418
-exports.authenticationTimeout            = 419
-exports.methodFailure                    = 420
-exports.enhanceYourCalm                  = 420
-exports.unprocessableEntity              = 422
-exports.locked                           = 423
-exports.failedDependency                 = 424
-exports.unorderedCollection              = 425
-exports.upgradeRequired                  = 426
-exports.preconditionRequired             = 428
-exports.tooManyRequests                  = 429
-exports.requestHeaderFieldsTooLarge      = 431
-exports.loginTimeout                     = 440
-exports.noResponse                       = 444
-exports.retryWith                        = 449
-exports.blockedByWindowsParentalControls = 450
-exports.unavailableForLegalReasons       = 451
-exports.requestHeaderTooLarge            = 494
-exports.certError                        = 495
-exports.noCert                           = 496
-exports.httpToHttps                      = 497
-exports.clientClosedRequest              = 499
+exports.badRequest                       = exports.bad_request                          = 400
+exports.unauthorized                     = exports.unauthorized                         = 401
+exports.paymentRequired                  = exports.payment_required                     = 402
+exports.forbidden                        = exports.forbidden                            = 403
+exports.notFound                         = exports.not_found                            = 404
+exports.methodNotAllowed                 = exports.method_not_allowed                   = 405
+exports.notAcceptable                    = exports.not_acceptable                       = 406
+exports.proxyAuthenticationRequired      = exports.proxy_authentication_required        = 407
+exports.requestTimeout                   = exports.request_timeout                      = 408
+exports.conflict                         = exports.conflict                             = 409
+exports.gone                             = exports.gone                                 = 410
+exports.lengthRequired                   = exports.length_required                      = 411
+exports.preconditionFailed               = exports.precondition_failed                  = 412
+exports.requestEntityTooLarge            = exports.request_entity_too_large             = 413
+exports.requestUriTooLong                = exports.request_uri_too_long                 = 414
+exports.unsupportedMediaType             = exports.unsupported_media_type               = 415
+exports.requestedRangeNotSatisfiable     = exports.requested_range_not_satisfiable      = 416
+exports.expectationFailed                = exports.expectation_failed                   = 417
+exports.imATeapot                        = exports.im_a_teapot                          = 418
+exports.authenticationTimeout            = exports.authentication_timeout               = 419
+exports.methodFailure                    = exports.method_failure                       = 420
+exports.enhanceYourCalm                  = exports.enhance_your_calm                    = 420
+exports.unprocessableEntity              = exports.unprocessable_entity                 = 422
+exports.locked                           = exports.locked                               = 423
+exports.failedDependency                 = exports.failed_dependency                    = 424
+exports.unorderedCollection              = exports.unordered_collection                 = 425
+exports.upgradeRequired                  = exports.upgrade_required                     = 426
+exports.preconditionRequired             = exports.precondition_required                = 428
+exports.tooManyRequests                  = exports.too_many_requests                    = 429
+exports.requestHeaderFieldsTooLarge      = exports.request_header_fields_too_large      = 431
+exports.loginTimeout                     = exports.login_timeout                        = 440
+exports.noResponse                       = exports.no_response                          = 444
+exports.retryWith                        = exports.retry_with                           = 449
+exports.blockedByWindowsParentalControls = exports.blocked_by_windows_parental_controls = 450
+exports.unavailableForLegalReasons       = exports.unavailable_for_legal_reasons        = 451
+exports.requestHeaderTooLarge            = exports.request_header_too_large             = 494
+exports.certError                        = exports.cert_error                           = 495
+exports.noCert                           = exports.no_cert                              = 496
+exports.httpToHttps                      = exports.http_to_https                        = 497
+exports.clientClosedRequest              = exports.client_closed_request                = 499
 
-exports.internalServerError          = 500
-exports.notImplemented               = 501
-exports.badGateway                   = 502
-exports.serviceUnavailable           = 503
-exports.gatewayTimeout               = 504
-exports.httpVersionNotSupported      = 505
-exports.variantAlsoNegotiates        = 506
-exports.insuficientStorage           = 507
-exports.loopDetected                 = 508
-exports.bandwidthLimitExceeded       = 509
-exports.notExtended                  = 510
-exports.networkAuthenticationReuired = 511
-exports.originError                  = 520
-exports.webServerIsDown              = 521
-exports.connectionTimedOut           = 522
-exports.proxyDeclinedRequest         = 523
-exports.aTimeoutOccured              = 524
-exports.networkReadTimeoutError      = 598
-exports.networkConnectTimeoutError   = 599
+exports.internalServerError              = exports.internal_server_error                = 500
+exports.notImplemented                   = exports.not_implemented                      = 501
+exports.badGateway                       = exports.bad_gateway                          = 502
+exports.serviceUnavailable               = exports.service_unavailable                  = 503
+exports.gatewayTimeout                   = exports.gateway_timeout                      = 504
+exports.httpVersionNotSupported          = exports.http_version_not_supported           = 505
+exports.variantAlsoNegotiates            = exports.variant_also_negotiates              = 506
+exports.insufficientStorage              = exports.insufficient_storage                 = 507
+exports.loopDetected                     = exports.loop_detected                        = 508
+exports.bandwidthLimitExceeded           = exports.bandwidth_limit_exceeded             = 509
+exports.notExtended                      = exports.not_extended                         = 510
+exports.networkAuthenticationRequired    = exports.network_authentication_required      = 511
+exports.originError                      = exports.origin_error                         = 520
+exports.webServerIsDown                  = exports.web_server_is_down                   = 521
+exports.connectionTimedOut               = exports.connection_timed_out                 = 522
+exports.proxyDeclinedRequest             = exports.proxy_declined_request               = 523
+exports.aTimeoutOccurred                 = exports.a_timeout_occurred                   = 524
+exports.networkReadTimeoutError          = exports.network_read_timeout_error           = 598
+exports.networkConnectTimeoutError       = exports.network_connect_timeout_error        = 599
 
 exports[100] = 'Continue'
 exports[101] = 'Switch Protocols'
@@ -163,3 +163,4 @@ exports[523] = 'Proxy Declined Request'
 exports[524] = 'A Timeout Occurred'
 exports[598] = 'Network Read Timeout Error'
 exports[599] = 'Network Connect Timeout Error'
+
