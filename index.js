@@ -45,6 +45,7 @@ exports.imATeapot                        = exports.im_a_teapot                  
 exports.authenticationTimeout            = exports.authentication_timeout               = 419
 exports.methodFailure                    = exports.method_failure                       = 420
 exports.enhanceYourCalm                  = exports.enhance_your_calm                    = 420
+exports.misdirectedRequest               = exports.misdirected_request                  = 421
 exports.unprocessableEntity              = exports.unprocessable_entity                 = 422
 exports.locked                           = exports.locked                               = 423
 exports.failedDependency                 = exports.failed_dependency                    = 424
@@ -90,7 +91,7 @@ exports[102] = 'Processing'
 exports[200] = 'OK'
 exports[201] = 'Created'
 exports[202] = 'Accepted'
-exports[203] = 'Non-Authoritative Information'
+exports[203] = 'Non-Authoritative'
 exports[204] = 'No Content'
 exports[205] = 'Reset Content'
 exports[206] = 'Partial Content'
@@ -100,7 +101,7 @@ exports[226] = 'IM Used'
 exports[300] = 'Multiple Choices'
 exports[301] = 'Moved Permanently'
 exports[302] = 'Found'
-exports[303] = 'Se Other'
+exports[303] = 'See Other'
 exports[304] = 'Not Modified'
 exports[305] = 'Use Proxy'
 exports[306] = 'Switch Proxy'
@@ -126,6 +127,8 @@ exports[416] = 'Requested Range Not Satisfiable'
 exports[417] = 'Expectation Failed'
 exports[418] = "I'm a teapot"
 exports[419] = 'Authentication Timeout'
+exports[420] = 'Enhance Your Calm'
+exports[421] = 'Misdirected Request'
 exports[422] = 'Unprocessable Entity'
 exports[423] = 'Locked'
 exports[424] = 'Failed Dependency'
@@ -151,7 +154,7 @@ exports[503] = 'Service Unavailable'
 exports[504] = 'Gateway Timeout'
 exports[505] = 'HTTP Version Not Supported'
 exports[506] = 'Variant Also Negotiates'
-exports[507] = 'Insufficient Storate'
+exports[507] = 'Insufficient Storage'
 exports[508] = 'Loop Detected'
 exports[509] = 'Bandwidth Limit Exceeded'
 exports[510] = 'Not Extended'

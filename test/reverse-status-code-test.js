@@ -27,7 +27,7 @@ describe('HTTP Status (Reverse)', function () {
       assert.equal(httpStatus[202], 'Accepted')
     })
     it('203', function () {
-      assert.equal(httpStatus[203], 'Non-Authoritative Information')
+      assert.equal(httpStatus[203], 'Non-Authoritative')
     })
     it('204', function () {
       assert.equal(httpStatus[204], 'No Content')
@@ -60,7 +60,7 @@ describe('HTTP Status (Reverse)', function () {
       assert.equal(httpStatus[302], 'Found')
     })
     it('303', function () {
-      assert.equal(httpStatus[303], 'Se Other')
+      assert.equal(httpStatus[303], 'See Other')
     })
     it('304', function () {
       assert.equal(httpStatus[304], 'Not Modified')
@@ -139,6 +139,12 @@ describe('HTTP Status (Reverse)', function () {
     })
     it('419', function () {
       assert.equal(httpStatus[419], 'Authentication Timeout')
+    })
+    it('420', function () {
+      assert.equal(httpStatus[420], 'Enhance Your Calm')
+    })
+    it('421', function () {
+      assert.equal(httpStatus[421], 'Misdirected Request')
     })
     it('422', function () {
       assert.equal(httpStatus[422], 'Unprocessable Entity')
@@ -219,7 +225,7 @@ describe('HTTP Status (Reverse)', function () {
       assert.equal(httpStatus[506], 'Variant Also Negotiates')
     })
     it('507', function () {
-      assert.equal(httpStatus[507], 'Insufficient Storate')
+      assert.equal(httpStatus[507], 'Insufficient Storage')
     })
     it('508', function () {
       assert.equal(httpStatus[508], 'Loop Detected')

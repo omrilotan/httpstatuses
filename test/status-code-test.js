@@ -146,6 +146,9 @@ describe('HTTP Status', function () {
     it('420', function () {
      assert.equal(httpStatus.enhanceYourCalm, 420)
     })
+    it('421', function () {
+     assert.equal(httpStatus.misdirectedRequest, 421)
+    })
     it('422', function () {
      assert.equal(httpStatus.unprocessableEntity, 422)
     })

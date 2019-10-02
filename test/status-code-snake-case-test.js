@@ -146,6 +146,9 @@ describe('HTTP Status (snake_case)', function () {
     it('420', function () {
      assert.equal(http_status.enhance_your_calm, 420)
     })
+    it('421', function () {
+     assert.equal(http_status.misdirected_request, 421)
+    })
     it('422', function () {
      assert.equal(http_status.unprocessable_entity, 422)
     })
