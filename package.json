@@ -2,7 +2,11 @@
   "author": "Casey Robinson <casey@rampantmonkey.com> (https://rampantmonkey.com)",
   "name": "httpstatuses",
   "description": "Friendly interface for working with HTTP status codes",
-  "keywords": ["http", "HTTP", "status code"],
+  "keywords": [
+    "http",
+    "HTTP",
+    "status code"
+  ],
   "version": "3.0.0",
   "repository": {
     "type": "git",
@@ -12,11 +16,11 @@
     "test": "make"
   },
   "engines": {
-    "node": ">= v0.10.x"
+    "node": ">=6"
   },
   "dependencies": {},
   "devDependencies": {
-    "istanbul": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "nyc": "*"
   }
 }
